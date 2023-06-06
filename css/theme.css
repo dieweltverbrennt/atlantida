@@ -215,7 +215,7 @@ input, textarea, select {
 */
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: "Poppins", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 600;
 }
 
@@ -709,7 +709,7 @@ nav .navigation-top > ul .left-side .logo-icon img {
 }
 
 nav .navigation-top > ul > li > a {
-    font-family: "Poppins", sans-serif;
+    font-family: "Open Sans", sans-serif;
     text-transform: uppercase;
     line-height: 55px;
     font-size: 16px;
@@ -2365,7 +2365,7 @@ nav .cart-wrapper.open {
 }
 
 .wrapper-more .btn {
-    font-family: "Poppins", sans-serif;
+    font-family: "Open Sans", sans-serif;
     position: relative;
     -moz-transition: all 0.4s;
     -o-transition: all 0.4s;
@@ -4327,7 +4327,7 @@ nav .cart-wrapper.open {
 }
 
 .owl-icons-wrapper .owl-icons figcaption {
-    font-family: "Poppins", sans-serif;
+    font-family: "Open Sans", sans-serif;
     text-transform: uppercase;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -4872,7 +4872,7 @@ footer .footer-social li a {
 }
 
 .benefits figure figcaption {
-    font-family: "Poppins", sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 /*  
