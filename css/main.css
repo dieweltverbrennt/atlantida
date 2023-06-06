@@ -535,7 +535,7 @@ section {
 } */
 
 .portfolio-image {
-	border-radius: 5px;
+	border-radius: var(--border-radius-1);
 }
 
 .col-3 .portfolio-item {
@@ -565,7 +565,7 @@ section {
 }
 
 .main-half-layout {
-	border-radius: 5px;
+	border-radius: var(--border-radius-1);
 }
 
 @media (max-width: 991px) {
