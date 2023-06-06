@@ -41,14 +41,14 @@ body {
 	font-weight: normal;
 	position: relative;
 	font-size: 14px;
-	font-family: 'Raleway', sans-serif;
+	font-family: "Open Sans", sans-serif;
 }
 .fonts {
-	font-family: 'Raleway', sans-serif;
-	font-family: 'Montserrat', sans-serif;
+	font-family: "Open Sans", sans-serif;
+	font-family: "Open Sans", sans-serif;
 }
 .tp-caption {
-	font-family: 'Raleway', sans-serif;
+	font-family: "Open Sans", sans-serif;
 }
 /*=======================================================
       WRAPPER
@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;
 	color: #000000;
 	font-weight: bold;
-	font-family: 'Raleway', sans-serif;
+	font-family: "Open Sans", sans-serif;
 }
 h1 {
 	font-size: 48px;
@@ -88,7 +88,7 @@ h6 {
 	font-size: 16px;
 }
 p {
-	font-family: 'Raleway', sans-serif;
+	font-family: "Open Sans", sans-serif;
 	color: #767575;
 	font-size: 14px;
 	letter-spacing: 0px;
@@ -103,7 +103,7 @@ a {
 	-ms-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out;
 	text-decoration: none !important;
-	font-family: 'Raleway', sans-serif;
+	font-family: "Open Sans", sans-serif;
 }
 img {
 	-webkit-transition: 0.4s ease-in-out;
@@ -168,7 +168,7 @@ section {
 	-o-transition: all 0.4s ease-in-out;
 	-ms-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out;
-	font-family: 'Raleway', sans-serif;
+	font-family: "Open Sans", sans-serif;
 }
 .btn:hover {
 	color: #fff;
@@ -971,7 +971,7 @@ header .user-basket h5 {
 	padding: 0px 0;
 	color: #000;
 	line-height: 36px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: "Open Sans", sans-serif;
 }
 header .user-basket .remov {
 	padding: 0px;
@@ -1569,7 +1569,7 @@ header .user-basket .cart-num {
 	font-size: 40px;
 	font-weight: bold;
 	color: #252839;
-	font-family: 'Montserrat', sans-serif;
+	font-family: "Open Sans", sans-serif;
 }
 .light-gray-bg .counters {
 	background: #fff;
@@ -2312,7 +2312,7 @@ header .user-basket .cart-num {
 .alert {
 	color: #fff;
 	text-transform: uppercase;
-	font-family: 'Raleway', sans-serif;
+	font-family: "Open Sans", sans-serif;
 	font-size: 13px;
 	border: none;
 	border-radius: 4px;
@@ -2683,7 +2683,7 @@ header .user-basket .cart-num {
 	font-weight: 600;
 	margin-bottom: 5px;
 	text-align: left;
-	font-family: 'Raleway', sans-serif;
+	font-family: "Open Sans", sans-serif;
 }
 .skill-bg .counters li p {
 	color: #000;
@@ -2760,7 +2760,7 @@ header .user-basket .cart-num {
 	margin-top: -25px;
 	position: absolute;
 	right: 0px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: "Open Sans", sans-serif;
 }
 .light-gray-bg .progress {
 	background: #fff;
@@ -3017,7 +3017,7 @@ header .user-basket .cart-num {
 	width: 100%;
 	padding: 40px 0;
 	padding-bottom: 0px;
-	font-family: 'Raleway', sans-serif;
+	font-family: "Open Sans", sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
 	color: #000000;
@@ -3064,7 +3064,7 @@ header .user-basket .cart-num {
 	width: 100%;
 	color: #252839;
 	font-weight: 600;
-	font-family: 'Montserrat', sans-serif;
+	font-family: "Open Sans", sans-serif;
 	letter-spacing: -2px;
 }
 .pricing article .plan-month {
@@ -3130,7 +3130,7 @@ header .user-basket .cart-num {
 	left: 0px;
 	font-size: 90px;
 	color: #232227;
-	font-family: 'Montserrat', sans-serif;
+	font-family: "Open Sans", sans-serif;
 }
 .testi-sim p {
 	color: #232227;
@@ -3535,7 +3535,7 @@ header .user-basket .cart-num {
 	float: right;
 	text-transform: none;
 	font-weight: normal;
-	font-family: 'Montserrat', sans-serif;
+	font-family: "Open Sans", sans-serif;
 }
 .comments li h6 span a {
 	font-size: 11px;
@@ -4275,7 +4275,7 @@ footer .links-footer li a:hover {
 	line-height: 46px;
 	font-weight: bold;
 	margin-right: 10px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: "Open Sans", sans-serif;
 }
 .blog-single-post blockquote {
 	font-weight: 700;
@@ -4308,7 +4308,7 @@ footer .links-footer li a:hover {
 	font-weight: 800;
 	color: #000;
 	float: left;
-	font-family: 'Raleway', sans-serif;
+	font-family: "Open Sans", sans-serif;
 	text-transform: uppercase;
 }
 .blog-single-post .post-info li a {
@@ -4504,7 +4504,7 @@ footer .links-footer li a:hover {
 	width: 100px;
 	color: #000000;
 	font-weight: bold;
-	font-family: 'Raleway', sans-serif;
+	font-family: "Open Sans", sans-serif;
 	text-transform: uppercase;
 }
 .project-detail .client-info li {
@@ -4888,7 +4888,7 @@ footer .links-footer li a:hover {
 	color: #fff;
 	font-weight: bold;
 	text-transform: uppercase;
-	font-family: 'Raleway', sans-serif;
+	font-family: "Open Sans", sans-serif;
 	line-height: 50px;
 	font-size: 14px;
 }
@@ -5212,7 +5212,7 @@ footer .links-footer li a:hover {
 .lance-footer h3 {
 	margin: 0px;
 	color: #f2b632;
-	font-family: 'Montserrat', sans-serif;
+	font-family: "Open Sans", sans-serif;
 }
 .lance-footer .social-icons {
 	margin-top: 30px;
@@ -5569,7 +5569,7 @@ header.menu-left .nav {
 	font-weight: 500;
 	display: inline-block;
 	width: 100%;
-	font-family: 'Montserrat', sans-serif;
+	font-family: "Open Sans", sans-serif;
 	margin-top: 10px;
 }
 .shop-content .info{
@@ -5593,7 +5593,7 @@ header.menu-left .nav {
 	font-weight: 500;
 	display: inline-block;
 	width: 100%;
-	font-family: 'Montserrat', sans-serif;
+	font-family: "Open Sans", sans-serif;
 	margin-top: 10px;
 }
 .shop-artical .btn {
@@ -5628,7 +5628,7 @@ header.menu-left .nav {
 	color: #fff;
 	font-weight: 600;
 	z-index: 1;
-	font-family: 'Montserrat', sans-serif;
+	font-family: "Open Sans", sans-serif;
 }
 .item-off {
 	position: absolute;
@@ -5644,7 +5644,7 @@ header.menu-left .nav {
 	color: #fff;
 	font-weight: 600;
 	z-index: 1;
-	font-family: 'Montserrat', sans-serif;
+	font-family: "Open Sans", sans-serif;
 }
 .chart-page .payment_steps {
 	margin: 30px 0;
@@ -6146,7 +6146,7 @@ header.menu-left .nav {
 ========================================================*/
 .side-bar .latest-post li {
 	padding: 10px 0;
-	font-family: 'Montserrat', sans-serif;
+	font-family: "Open Sans", sans-serif;
 }
 .side-bar .latest-post li a {
 	padding: 0px !important;
@@ -6303,7 +6303,7 @@ header.menu-left .nav {
 	margin-bottom: 8px;
 	margin-right: 8px;
 	float: left;
-	font-family: 'Raleway', sans-serif;
+	font-family: "Open Sans", sans-serif;
 }
 .side-bar .tags li a:hover {
 	background: #f2b632;
@@ -6329,7 +6329,7 @@ header.menu-left .nav {
 	width: 100%;
 }
 .cost-price-content span {
-	font-family: 'Montserrat', sans-serif;
+	font-family: "Open Sans", sans-serif;
 	font-size: 12px;
 	letter-spacing: 0px;
 	font-weight: 500;
@@ -6387,7 +6387,7 @@ header.menu-left .nav {
 	font-weight: bold;
 	color: #000;
 	float: left;
-	font-family: 'Raleway', sans-serif;
+	font-family: "Open Sans", sans-serif;
 	width: 150px;
 	text-transform: uppercase;
 }
@@ -6494,13 +6494,13 @@ header.menu-left .nav {
 	margin: 20px 0;
 }
 .item-detail-page {
-	font-family: 'Montserrat', sans-serif;
+	font-family: "Open Sans", sans-serif;
 }
 .item-detail-page .price {
 	display: inline-block;
 	width: 100%;
 	color: #af5875;
-	font-family: 'Montserrat', sans-serif;
+	font-family: "Open Sans", sans-serif;
 	font-size: 20px;
 	margin-bottom: 10px;
 }
@@ -6508,7 +6508,7 @@ header.menu-left .nav {
 	display: inline-block;
 	width: 100%;
 	color: #b8b8b8;
-	font-family: 'Montserrat', sans-serif;
+	font-family: "Open Sans", sans-serif;
 	font-size: 10px;
 	margin-bottom: 15px;
 }
@@ -6817,7 +6817,7 @@ header.menu-left .nav {
 	float: right;
 	text-transform: none;
 	font-weight: normal;
-	font-family: 'Montserrat', sans-serif;
+	font-family: "Open Sans", sans-serif;
 }
 .item-decribe .media-body .stars {
 	color: #ffcb00 !important;
@@ -7078,13 +7078,13 @@ header.white-header #cd-menu-trigger.is-clicked .cd-menu-icon {
 }
 .checkout-form .checkbox label {
 	font-weight: 700;
-	font-family: 'Raleway', sans-serif;
+	font-family: "Open Sans", sans-serif;
 }
 .checkout-form .checkbox label::before {
 	margin-left: 0px;
 }
 .checkout-form thead {
-	font-family: 'Raleway', sans-serif;
+	font-family: "Open Sans", sans-serif;
 }
 .checkout-form thead th {
 	text-transform: uppercase;
@@ -7123,7 +7123,7 @@ header.white-header #cd-menu-trigger.is-clicked .cd-menu-icon {
 	background: #fff;
 }
 .checkout-form .table .totl {
-	font-family: 'Montserrat', sans-serif;
+	font-family: "Open Sans", sans-serif;
 }
 .bootstrap-select {
 	width: 100%;
