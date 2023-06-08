@@ -104,27 +104,7 @@ section {
       HEADINGS
 ========================================================*/
 .heading .v-hr {
-	position: relative;
-	padding-bottom: 10px;
-	margin-bottom: 30px;
-}
-.heading .v-hr:after {
-	bottom: -5px;
-	height: 1px;
-	left: 0px;
-	width: 50px;
-	background: #252839;
-	content: "";
-	position: absolute;
-}
-.heading .v-hr:before {
-	position: absolute;
-	bottom: -8px;
-	height: 1px;
-	left: 0px;
-	width: 30px;
-	background: #252839;
-	content: "";
+	margin-bottom: 20px;
 }
 /*=======================================================
       Separator
@@ -139,7 +119,6 @@ section {
       SINGLE PROJECT
 ========================================================*/
 .main-half-layout {
-	background: url('../assets/images/about-img-bg.jpg') center center no-repeat;
 	/* background: url('..'); */
 	width: 50%;
 	height: 100%;
@@ -262,7 +241,7 @@ section {
 	width: 100px;
 	bottom: 0px;
 	margin: 0 auto;
-	background: #f2b632;
+	background: var(--color-primary-fon);
 	z-index: 11;
 	content: "";
 	-webkit-transition: all 0.4s ease-in-out;

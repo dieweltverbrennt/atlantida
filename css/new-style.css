@@ -202,6 +202,99 @@ footer .link-social{
 }
 
 
+/*////////////////////////////// Услуги //////////////////////////////*/
+.no-image{
+	background-color: #141414;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.price{
+	padding: 0;
+	margin: 0 15px;
+	position: relative;
+    overflow: hidden;
+    border-radius: var(--border-radius-big);
+}
+.price-container{
+	padding-left: 106px;
+	z-index: 5;
+	position: relative;
+	background-color: #FFF0;
+}
+.price .fon{
+	z-index: 1;
+	top: 0;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+	background-color: var(--color-primary-fon);
+}
+.price .fon img{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 70%;
+}
+.price .fon .grad {
+	background: linear-gradient(90deg, hsl(204deg 100% 37% / 100%) 30%, hsl(204deg 100% 37% / 25%) 75%);
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+}
+.price h3{
+	color: #FFF;
+	margin-bottom: 12px;
+}
+.price p{
+	color: #FFF;
+	max-width: 400px;
+	line-height: 135%;
+}
+.price button{
+	border-radius: var(--border-radius-small);
+	background-color: #FFF;
+	color: var(--color-buttonForms-text);
+	-moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+	padding: 15px 24px;
+	gap: 6px;
+}
+.price svg{
+	width: 20px;
+	height: auto;
+}
+.price svg path{
+	fill: var(--color-primary-fon)
+}
+.price button p{
+	color: var(--color-buttonForms-text);
+	font-weight: 600;
+}
+.price button:hover p{
+	color: var(--color-text-link-hover);
+}
+.price button:hover svg path{
+	fill: var(--color-text-link-hover)
+}
+
+
+
+/*////////////////////////////// О компании //////////////////////////////*/
+#content button{
+	margin-top: 10px;
+}
+#content .main-half-layout{
+	background-size: cover !important;
+}
+
 
 /*////////////////////////////// Форма обратной связи //////////////////////////////*/
 .banner h2{
@@ -227,4 +320,7 @@ footer .link-social{
 }
 .banner .col-md-4 input:nth-of-type(2){
 	margin-bottom: 24px;
+}
+.banner button{
+	padding: 11px 20px
 }
