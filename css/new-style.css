@@ -1,12 +1,87 @@
 :root{
+	--color-primary-fon: #0072bc;
 	--color-button-fon: #0072bc;
 	--color-button-fon-hover: #005c99;
+	--color-buttonForms-border: #0072bc;
+	--color-buttonForms-text: #0072bc;
+	--color-buttonForms-fon-hover: #005c99;
+	--color-text-link-hover: #005c99;
 
 	--border-radius-small: 7px;
 	--border-radius-1: 12px;
 	--border-radius-big: 20px;
 }
 
+button.new-button{
+	color: #fff;
+    background-color: var(--color-button-fon);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.2;
+    border-radius: var(--border-radius-small);
+    padding: 16px 24px;
+    box-sizing: border-box;
+    border: none;
+	-moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+button.new-button:hover{
+	background-color: var(--color-button-fon-hover);
+}
+button.new-button-forms{
+	color: var(--color-buttonForms-text);
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 1.2;
+	border: 2px solid var(--color-buttonForms-border) !important;
+    border-radius: var(--border-radius-small);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border: none;
+	-moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+button.new-button-forms:hover{
+	border: 2px solid var(--color-buttonForms-fon-hover) !important;
+	background-color: var(--color-buttonForms-fon-hover);
+}
+button.new-button-forms.light{
+	border: 2px solid #FFF !important;
+	background-color: #FFF0;
+	color: #FFF;
+}
+button.new-button-forms.light:hover{
+	background-color: #FFF;
+	color: var(--color-buttonForms-text);
+}
+
+input.new-input{
+	border-radius: var(--border-radius-small);
+	padding: 10px 20px;
+	height: auto;
+	border: none;
+	width: 300px;
+}
+
+.link-social *{
+	-moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.link-social-tel rect, .link-social-wat rect{
+	fill: #a9bfd6;
+}
+.link-social-tel:hover rect{
+	fill: #27A6E5;
+}
+.link-social-wat:hover rect{
+	fill: #48C95F;
+}
 
 /*////////////////////////////// Меню //////////////////////////////*/
 
@@ -23,6 +98,14 @@ nav .logo-icon img{
     width: 80px;
 	margin: 10px 20px;
 }
+.links .link-social{
+	line-height: 0;
+    font-size: 0;
+}
+.links .link-social svg{
+	height: auto;
+	width: 36px;
+}
 
 .search{
 	margin-left: 15px !important;
@@ -35,11 +118,14 @@ nav .logo-icon img{
     align-items: center;
     justify-content: center;
 }
-
 nav .navigation ul .right-side.info{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+}
+
+nav .navigation-top > ul > li > a:hover{
+	color: var(--color-text-link-hover);
 }
 
 nav .navigation-top > ul .right-side.info a{
@@ -53,13 +139,21 @@ nav .navigation-top > ul .right-side.info a:last-child{
 	font-size: 12px;
 }
 
+nav .navigation-main .floating-menu > ul > li .navbar-dropdown{
+	max-width: max-content;
+}
+nav .col-lg-4{
+	flex: 100%;
+	max-width: max-content;
+	min-width: 200px;
+}
+
 
 /*////////////////////////////// Подвал //////////////////////////////*/
 
 .footer-showroom img{
 	width: 120px;
 }
-
 .scroll-top{
 	bottom: 50px;
     display: flex;
@@ -69,4 +163,68 @@ nav .navigation-top > ul .right-side.info a:last-child{
 }
 .scroll-top:hover{
 	background-color: var(--color-button-fon-hover);
+}
+.col-md-first{
+	margin-right: 32px;
+}
+.cat-none{
+	opacity: 0;
+    cursor: default;
+}
+.col-sm-6{
+	display: flex;
+	align-items: center;
+}
+.col-sm-6.links{
+	justify-content: flex-end;
+}
+.col-sm-6.links ul{
+	display: flex;
+	gap: 8px;
+}
+.offset-md-5.col-md-3 a:hover{
+	-moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+}
+.offset-md-5.col-md-3 p{
+	color: #141414;
+}
+.offset-md-5.col-md-3 p, .offset-md-5.col-md-3 a{
+	line-height: 170%;
+}
+footer .link-social{
+	height: auto;
+	width: 32px;
+	display: block;
+}
+
+
+
+/*////////////////////////////// Форма обратной связи //////////////////////////////*/
+.banner h2{
+	font-weight: 600;
+}
+.banner p{
+	color: #fff;
+	line-height: 135%;
+}
+.banner .container{
+	max-width: 700px;
+	margin-left: 80px;
+	margin-right: auto;
+}
+.banner .container .text{
+	max-width: 55%;
+}
+.banner header{
+	padding-bottom: 20px;
+}
+.banner .col-md-4 input:nth-of-type(1){
+	margin-bottom: 16px;
+}
+.banner .col-md-4 input:nth-of-type(2){
+	margin-bottom: 24px;
 }
