@@ -122,7 +122,7 @@
                             <span class="close-menu"><i class="icon icon-cross"></i></span>
                         </div>
                         <ul>
-                            <li>
+                            <li class="catalog">
                                 <a href="#">Каталог <span class="open-dropdown"><i
                                             class="fa fa-angle-down"></i></span></a>
                                 <div class="navbar-dropdown">
@@ -153,7 +153,7 @@
                                     </div>
                                 </div>
                             </li>
-                            <li>
+                            <li class="about">
                                 <a href="#">О компании <span class="open-dropdown"><i
                                             class="fa fa-angle-down"></i></span></a>
                                 <div class="navbar-dropdown navbar-dropdown-single">
@@ -205,35 +205,20 @@
 
                     <!--Slide item-->
 
-                    <div class="item d-flex align-items-center" style="background-image:url(assets/Слайдер\ –\ О\ компании.jpg)">
+                    <div class="item d-flex align-items-center" style="background: linear-gradient(90deg, hsl(204deg 100% 37% / 75%) 0%, hsl(0deg 0% 100% / 0%) 100%), url(assets/Слайдер\ –\ О\ компании.jpg);">
                         <div class="container">
                             <div class="caption">
                                 <div class="animated" data-start="fadeInUp">
                                     <div class="promo pt-3">
-                                        <div class="title title-sm p-0">Sofa Grace</div>
+                                        <div class="title title-sm p-0">Традиционное производство с богатой историей</div>
                                     </div>
                                 </div>
-                                <div class="animated" data-start="fadeInUp">
-                                    Score new arrivals from latest items
-                                    <br />
-                                    Multipurpose eCommerce template ready
+                                <div class="animated text" data-start="fadeInUp">
+                                    Больше 20 лет производства рыбной продукции и оптовых продаж  
                                 </div>
                                 <div class="animated" data-start="fadeInUp">
                                     <div class="pt-3">
-                                        <a href="#" target="_blank" class="btn btn-outline-warning">Buy now</a>
-                                        <a href="#" target="_blank" class="btn btn-outline-light"> Get first
-                                            discount</a>
-                                    </div>
-                                </div>
-                                <div class="animated" data-start="fadeInUp">
-                                    <div class="promo pt-5">
-                                        <div class="h6 p-0 m-0">Get special price</div>
-                                        <div class="price">
-                                            <span>$1499,99</span>
-                                            <span>3499,99</span>
-                                        </div>
-                                        <small class="d-none d-sm-block">** Product prices with discount are available
-                                            until the end of stock </small>
+                                        <button class="new-button light">Подробнее</button>
                                     </div>
                                 </div>
                             </div>
@@ -242,69 +227,14 @@
 
                     <!--Slide item-->
 
-                    <div class="item d-flex align-items-center" style="background-image:url(assets/images/slide-2.jpg)">
-                        <div class="container">
-                            <div class="caption">
-                                <div class="animated" data-start="fadeInUp">
-                                    <div class="big-text big-text-sm">
-                                        <span>Save now </span>
-                                        <span>50%</span>
-                                        <span>on new kitchen</span>
-
-                                        <div>
-                                            <a href="#" target="_blank" class="btn btn-info btn-block">Shop now</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="animated d-none" data-start="fadeInUp">
-                                    <a href="#" target="_blank" class="btn btn-info">Buy this template</a>
-                                    <a href="#" target="_blank" class="btn btn-outline-light"> Get first discount</a>
-                                </div>
-
-                                <div class="animated" data-start="fadeInUp">
-                                    <div class="promo pt-5">
-                                        <div class="badge badge-secondary">New arrival</div>
-                                        <div class="h2 p-0 mt-1">Kitchen Moderna</div>
-                                        <div class="price">
-                                            <span>$7299,99</span>
-                                            <span>8399,99</span>
-                                        </div>
-                                        <small class="d-none d-sm-block">** Product prices with discount are available
-                                            until the end of stock </small>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--Slide item-->
-
-                    <div class="item d-flex align-items-center" style="background-image:url(assets/images/slide-3.jpg)">
-                        <div class="container">
-                            <div class="caption">
-                                <div class="promo text-center">
-                                    <div class="animated" data-start="fadeInUp">
-                                        <div class="title title-sm p-0">Bathroom Furniture</div>
-                                    </div>
-                                    <div class="animated" data-start="fadeInUp">
-                                        Score new arrivals from latest items
-                                        <br />
-                                        Multipurpose eCommerce template ready
-                                    </div>
-                                    <div class="animated" data-start="fadeInUp">
-                                        <a href="#" target="_blank" class="btn btn-light">New collection</a>
-                                        <a href="#" target="_blank" class="btn btn-outline-light"> Get first
-                                            discount</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    
 
                 </div> <!--/owl-slider-->
             </div>
         </section>
 
+
+        <div class="line"></div>
         <!-- Portfolio -->
 
 
@@ -422,7 +352,7 @@
                 <div class="cbp-item portfolio-item mob-app photo ui">
                   <article>
                     <div class="portfolio-image "> <img alt="" src="./assets/У – Креветки.jpg">
-                        <div class="no-image"></div>
+                        <!-- <div class="no-image"></div> -->
                       <div class="portfolio-overlay"></div>
                       <div class="position-bottom"> <a href="./assets/images/img1-5.jpg" class="img-pop icon" title=""></a>
                         <h4><a href="#">Другое</a></h4>
@@ -473,13 +403,15 @@
                 <p>Скачайте прайс-лист, чтобы узнать актуальные цены на всю продукцию</p>
                 <button>
                     <svg id="Layer_1" height="512" viewBox="0 0 24 24" width="512" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1">
-                        <path d="m17 12.5a1.5 1.5 0 0 1 -1.5 1.5h-7a1.5 1.5 0 0 1 0-3h7a1.5 1.5 0 0 1 1.5 1.5zm-4.5 3.5h-4a1.5 1.5 0 0 0 0 3h4a1.5 1.5 0 0 0 0-3zm9.5-7.843v10.343a5.506 5.506 0 0 1 -5.5 5.5h-9a5.506 5.506 0 0 1 -5.5-5.5v-13a5.506 5.506 0 0 1 5.5-5.5h6.343a5.462 5.462 0 0 1 3.889 1.611l2.657 2.657a5.464 5.464 0 0 1 1.611 3.889zm-3 10.343v-9.5h-4a2 2 0 0 1 -2-2v-4h-5.5a2.5 2.5 0 0 0 -2.5 2.5v13a2.5 2.5 0 0 0 2.5 2.5h9a2.5 2.5 0 0 0 2.5-2.5z"/>
+                        <path d="m17 14a1 1 0 0 1 -1 1h-8a1 1 0 0 1 0-2h8a1 1 0 0 1 1 1zm-4 3h-5a1 1 0 0 0 0 2h5a1 1 0 0 0 0-2zm9-6.515v8.515a5.006 5.006 0 0 1 -5 5h-10a5.006 5.006 0 0 1 -5-5v-14a5.006 5.006 0 0 1 5-5h4.515a6.958 6.958 0 0 1 4.95 2.05l3.484 3.486a6.951 6.951 0 0 1 2.051 4.949zm-6.949-7.021a5.01 5.01 0 0 0 -1.051-.78v4.316a1 1 0 0 0 1 1h4.316a4.983 4.983 0 0 0 -.781-1.05zm4.949 7.021c0-.165-.032-.323-.047-.485h-4.953a3 3 0 0 1 -3-3v-4.953c-.162-.015-.321-.047-.485-.047h-4.515a3 3 0 0 0 -3 3v14a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3z"/>
                     </svg>
                     <p>Скачать</p>
                 </button>
             </div>
             
         </section>
+
+        <div class="line"></div>
 
         <!-- ========================  Benefits ======================== -->
 
@@ -495,7 +427,7 @@
 
             <!--Header-->
 
-            <div class="container">
+            <div class="content">
 
                 <div class="row">
 
@@ -547,6 +479,8 @@
 
         </section>
 
+        <div class="line"></div>
+
         <div id="content">
 
             <!-- Left Background -->
@@ -580,6 +514,8 @@
 
         <!-- ========================  Newsletter ======================== -->
 
+        <div class="line"></div>
+
         <section class="banner">
 
             <div class="container-fluid">
@@ -605,7 +541,7 @@
                             <div class="col-md-4">
                                 <input type="text" class="form-control new-input" name="name" value="" placeholder="Введите ваше имя">
                                 <input type="email" class="form-control new-input" name="email" value="" placeholder="Введите адрес электронной почты">
-                                <a href="#"><button class="new-button-forms light">Отправить</button></a>
+                                <a href="#"><button class="new-button-forms-big light">Отправить</button></a>
                             </div>
                         </div>
                     </div>

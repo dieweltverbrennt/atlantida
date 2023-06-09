@@ -407,7 +407,7 @@ section {
 
 @media (min-width: 1200px) {
     section {
-        padding-top: 100px;
+        padding-top: 75px;
     }
 }
 
@@ -1225,7 +1225,7 @@ nav .open-cart span {
 nav .search-wrapper {
     position: absolute;
     background: white;
-    top: 81px;
+    top: 89px;
     right: 15px;
     left: 15px;
     z-index: 9999;
